@@ -36,14 +36,18 @@
 
         // tipe-data number/angka
         var angka = 9301;
-        // tipe-data angka (float/bilangan pecahan)
-        var angka2 = 98.99;
+        var angka2 = 88;
 
-        // kiri = nama => kanan = nilai
+        // operator matematika +, * , /, - , %(sisa bagi)
 
-        var angka_baru = angka2 + angka;
+        var angka_baru = angka + angka2;
 
-        /* 1. Memilih id wrap  
+        angka_baru += angka; // ini sama dengan angka_baru = angka_baru + angka;
+
+        // angka_baru++; //increment (menjumlahkan dengan 1)
+        // angka_baru--; //decremet (mengurangi dengan 1);
+
+        /* 1. Memilih id wrap
          2. Metode innerHTML = nulis konten
          */
         document.getElementById("wrap").innerHTML = angka_baru;
