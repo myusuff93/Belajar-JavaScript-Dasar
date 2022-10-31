@@ -36,20 +36,33 @@
 
         // tipe-data number/angka
         var angka = 9301;
-        var angka2 = 88;
+        var angka2 = 889.88769237;
+        let angka3, angka4, angka5, angka6;
+        angka3 = 650;
+        angka4 = 76;
+        angka5 = 93;
+        angka6 = 125;
 
         // operator matematika +, * , /, - , %(sisa bagi)
 
-        var angka_baru = angka + angka2;
+        // var angka_baru = angka + angka2;
 
-        angka_baru += angka; // ini sama dengan angka_baru = angka_baru + angka;
+        // angka_baru += angka; // ini sama dengan angka_baru = angka_baru + angka;
 
         // angka_baru++; //increment (menjumlahkan dengan 1)
         // angka_baru--; //decremet (mengurangi dengan 1);
 
+        // 7. metode angka => toFixed(n), toString(), random(), min(a,b,c), max(a,b,c), dll
+        // var angka_baru = angka2.toFixed(3);
+        // var angka_baru = angka.toString() + angka2;
+        // var angka_baru = Math.random().toFixed(2) + angka;
+        // var angka_baru = Math.min(angka, angka2, angka3, angka4, angka5, angka6); //=> bisa dengan variabel asal tipe datanya juga angka;
+        // var angka_baru = Math.max(angka3, angka4, angka5, angka6);
+
         /* 1. Memilih id wrap
          2. Metode innerHTML = nulis konten
          */
+
         document.getElementById("wrap").innerHTML = angka_baru;
       </script>
     </div>
