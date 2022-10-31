@@ -9,6 +9,7 @@ body {
   margin: 20px auto;
   background-color: #f1f1f4;
   border: 4px solid hsl(219, 63%, 54%);
+  padding: 20px;
 }
 h1 {
   text-align: center;
