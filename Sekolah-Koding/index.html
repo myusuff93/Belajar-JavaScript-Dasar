@@ -21,20 +21,32 @@
         // Nama Boleh mengandung huruf,angka,underscore,dan $ dollar
         //Nama itu case sensitive
         // Ada 'reserved word' yang tidak boleh dipakai
+        // =========================================================
 
         // tipe-data string
         // perlu tanda kutip
         var text = "Hai";
+        var text2 = " Yusuf";
+
+        text2 = " World";
+        text2 = " Deni";
+        // jika variable diubah nilainya beberapa kali, maka yang terakhir yang diambil
+
+        var ucapan = text + text2;
 
         // tipe-data number/angka
         var angka = 9301;
         // tipe-data angka (float/bilangan pecahan)
-        var angka2 = 98.99 + 1.2;
+        var angka2 = 98.99;
+
+        // kiri = nama => kanan = nilai
+
+        var angka_baru = angka2 + angka;
 
         /* 1. Memilih id wrap  
          2. Metode innerHTML = nulis konten
          */
-        document.getElementById("wrap").innerHTML = angka2;
+        document.getElementById("wrap").innerHTML = angka_baru;
       </script>
     </div>
   </body>
