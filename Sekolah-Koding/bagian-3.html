@@ -27,14 +27,16 @@
       // Method array
       // sort,reverse,concat,length, join("separator")
       let myFriends = ["deni", "daudi", "jalal", "arwanto", "abbi", "abdul", "zulfikar", "muhamad"];
-      let myFriends2 = ["anisyah", "miftah", "dinia"];
+      let myFriends2 = ["anisyah", "miftah", "dinia", "algaf"];
       let myFriends3 = ["ariel", "tisa"];
+      //method array yg ke 2 - splice=>add(mulai, dihapus?, isi), splice=>remove
+      // pop,push,shift(),unshift
 
-      const totalMyFriends = myFriends.concat(myFriends2, myFriends3);
-
+      // myFriends2.push("ghina", "Ratih", "Sartika");
+      myFriends2.unshift("wirda");
       // cek lewat button
       function tampilkanHasil() {
-        document.getElementById("wrap").innerHTML = totalMyFriends.join(" | ");
+        document.getElementById("wrap").innerHTML = myFriends2;
       }
     </script>
     <!-- akhir tag Javascript -->
