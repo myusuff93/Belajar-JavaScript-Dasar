@@ -18,14 +18,23 @@
     </div>
     <!-- tag Javascript -->
     <script>
-      let kotak = ["yusuf", "deni", "daudi"];
-      //   ubah nilai array
-      kotak[0] = "halo";
-      kotak[3] = "yusuf";
+      // tipe Data Array
+      //   let kotak = ["yusuf", "deni", "daudi"];
+      //   //   ubah nilai array
+      //   kotak[0] = "halo";
+      //   kotak[3] = "yusuf";
+
+      // Method array
+      // sort,reverse,concat,length, join("separator")
+      let myFriends = ["deni", "daudi", "jalal", "arwanto", "abbi", "abdul", "zulfikar", "muhamad"];
+      let myFriends2 = ["anisyah", "miftah", "dinia"];
+      let myFriends3 = ["ariel", "tisa"];
+
+      const totalMyFriends = myFriends.concat(myFriends2, myFriends3);
 
       // cek lewat button
       function tampilkanHasil() {
-        document.getElementById("wrap").innerHTML = kotak;
+        document.getElementById("wrap").innerHTML = totalMyFriends.join(" | ");
       }
     </script>
     <!-- akhir tag Javascript -->
