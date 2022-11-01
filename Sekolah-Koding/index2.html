@@ -41,10 +41,27 @@
 
       // return pada JavaScript
 
-      function menjumlahkan(nilai1, nilai2) {
-        return nilai1 + nilai2;
+      // function menjumlahkan(nilai1, nilai2) {
+      //   return nilai1 + nilai2;
+      // }
+      // let text = menjumlahkan(9, 9);
+
+      // // cek kodingan lewat button
+      // function tampilkanHasil() {
+      //   document.getElementById("wrap").innerHTML = text;
+      // }
+
+      // scope di javascript
+      // global
+      var text = "sekolah koding 123";
+      function printText() {
+        // local var
+
+        // var text2 = "situs lain"
+        var text = "situs lain";
       }
-      let text = menjumlahkan(9, 9);
+
+      printText();
 
       // cek kodingan lewat button
       function tampilkanHasil() {
