@@ -12,6 +12,8 @@
       <h1>Belajar Javascript</h1>
       <hr />
 
+      <button onclick="tampilkanHasil()">Cek hasil</button>
+
       <div id="wrap"></div>
     </div>
     <!-- tag Javascript -->
@@ -28,15 +30,26 @@
       // printText();
 
       // parameter pada fungsi
+      // // saat function dibuat kita bisa membuat parameter agar bisa dimasuki oleh argument
+      // function printText(firstName, middleName, lastName) {
+      //   const fullName = firstName + middleName + lastName;
+      //   document.getElementById("wrap").innerHTML = `Hi ini nama lengkap saya ${fullName}`;
+      // }
 
-      // saat function dibuat kita bisa membuat parameter agar bisa dimasuki oleh argument
-      function printText(firstName, middleName, lastName) {
-        const fullName = firstName + middleName + lastName;
-        document.getElementById("wrap").innerHTML = `Hi ini nama lengkap saya ${fullName}`;
+      // // saat function dipanggil kita bisa memasukan argument
+      // printText("Muhamad ", "Yusup ", "Fajarudin");
+
+      // return pada JavaScript
+
+      function menjumlahkan(nilai1, nilai2) {
+        return nilai1 + nilai2;
       }
+      let text = menjumlahkan(9, 9);
 
-      // saat function dipanggil kita bisa memasukan argument
-      printText("Muhamad ", "Yusup ", "Fajarudin");
+      // cek kodingan lewat button
+      function tampilkanHasil() {
+        document.getElementById("wrap").innerHTML = text;
+      }
     </script>
     <!-- akhir tag Javascript -->
   </body>
