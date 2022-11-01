@@ -29,13 +29,14 @@
 
       // parameter pada fungsi
 
-      function printText(nama) {
-        let text = nama + " SMKN 1 RANGKASBITUNG";
-        document.getElementById("wrap").innerHTML = text;
+      // saat function dibuat kita bisa membuat parameter agar bisa dimasuki oleh argument
+      function printText(firstName, middleName, lastName) {
+        const fullName = firstName + middleName + lastName;
+        document.getElementById("wrap").innerHTML = `Hi ini nama lengkap saya ${fullName}`;
       }
 
-      let nama = "Sekolah saya berada di";
-      printText(nama);
+      // saat function dipanggil kita bisa memasukan argument
+      printText("Muhamad ", "Yusup ", "Fajarudin");
     </script>
     <!-- akhir tag Javascript -->
   </body>
