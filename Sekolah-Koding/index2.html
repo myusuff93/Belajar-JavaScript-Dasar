@@ -20,12 +20,22 @@
 
       // Menuliskan fungsi
 
-      function printText() {
-        let name = prompt("Siapa nama anda : ");
-        document.getElementById("wrap").innerHTML = `Hallo ${name} semangat ya belajarnya`;
-      }
+      // function printText() {
+      //   let name = prompt("Siapa nama anda : ");
+      //   document.getElementById("wrap").innerHTML = `Hallo ${name} semangat ya belajarnya`;
+      // }
       //   memanggil Funsi
-      printText();
+      // printText();
+
+      // parameter pada fungsi
+
+      function printText(nama) {
+        let text = nama + " SMKN 1 RANGKASBITUNG";
+        document.getElementById("wrap").innerHTML = text;
+      }
+
+      let nama = "Sekolah saya berada di";
+      printText(nama);
     </script>
     <!-- akhir tag Javascript -->
   </body>
