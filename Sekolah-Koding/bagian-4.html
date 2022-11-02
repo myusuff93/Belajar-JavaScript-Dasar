@@ -82,12 +82,17 @@
       // for loop
 
       // for (mulai; sampai/syarat; perpindahan)
-
-      let angka = 0;
-      for (let index = 10; index >= angka; index--) {
-        alert(`halo ke ${index}`);
+      // let angka = 0;
+      // for (let index = 10; index >= angka; index--) {
+      //   alert(`halo ke ${index}`);
+      // }
+      let i = 0;
+      let text = "";
+      while (i <= 10) {
+        text += "<br> pengulangan ke " + i;
+        i++;
       }
-
+      document.getElementById("wrap").innerHTML = text;
       // // cek lewat button
       // function tampilkanHasil() {
       //   document.getElementById("wrap").innerHTML = f;
