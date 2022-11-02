@@ -25,14 +25,41 @@
       // dasar if else
       // operator logika == != > >= < <=
 
+      // const uangDesigner = 15000;
+      // const uangProgrammer = 30000;
+      // let hargaBarang = 30000;
+
+      // const x = true;
+
+      // if (x == true && false != x) {
+      //   alert("ini benar");
+      // } else {
+      //   alert("ini salah");
+      // }
+
+      // else if
+      // if (uangProgrammer == hargaBarang) {
+      //   alert("uang programmer tidak cukup, belanja batal");
+      // } else if (uangDesigner == hargaBarang) {
+      //   alert("uang designer cukup, belanja berhasil");
+      // } else if (uangProgrammer >= hargaBarang) {
+      //   alert("uang programmer kebanyakan belanja batal");
+      // } else if (uangProgrammer < hargaBarang) {
+      //   alert("uang programmer kurang, kerja lagi");
+      // }
+
+      // nested if
+
       const uangDesigner = 15000;
-      const uangProgrammer = 30000;
+      const uangProgrammer = 2500000;
       let hargaBarang = 30000;
 
-      if (uangDesigner == hargaBarang || uangProgrammer == hargaBarang) {
-        alert("Uang anda cukup");
-      } else {
-        alert("uang anda kurang");
+      if (uangProgrammer > hargaBarang) {
+        if (uangProgrammer > hargaBarang * 2) {
+          alert("programmer bisa beli 2 barang");
+        } else {
+          alert("programmer hanya bisa beli 1 barang");
+        }
       }
 
       // // cek lewat button
